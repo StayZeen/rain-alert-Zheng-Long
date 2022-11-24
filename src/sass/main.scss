@@ -1,0 +1,21 @@
+.content{
+    height: 73%;
+    &__weather{
+      height: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &__img-weather{
+        padding-right:10px ;
+  }
+  }
+    &__pluie{
+        height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__txt{
+        color: white;
+    }
+    }
+  }

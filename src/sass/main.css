@@ -1,0 +1,21 @@
+.content {
+  height: 73%;
+}
+.content__weather {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content__weather__img-weather {
+  padding-right: 10px;
+}
+.content__pluie {
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content__pluie__txt {
+  color: white;
+}/*# sourceMappingURL=main.css.map */

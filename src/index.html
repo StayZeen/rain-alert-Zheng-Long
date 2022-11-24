@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/default.css">
     
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./style.css"> -->
     <title>Rain Alert</title>
 </head>
 <body>
-
-    <main>
-        <section class="section1">
-            <div class="div-logo"> 
-                <div class="rain-main">
+    <main class="home">
+        <section class="home__section">
+            <div class="home__section__content"> 
+                <div class="home__section__content__img-home">
                 <img src="./img/logo.png" alt="logo">
-                <div class="txt-logo">
+                <div class="home__section__content__img-home__txt">
                        <h1>RainAlert</h1>
                 <p>Préparez-vous <br>
                     pour la pluie</p>
@@ -24,6 +24,67 @@
             </div>
         </section>
     </main>
+
+
+    <main>
+        <section class= "container">
+            <header class="header">
+                <div class="header__div-header">
+                    <div class="img">
+                        <img src="./img/logopage.png" alt="logo">
+                    </div>
+                    <div>
+                        <h4>RainAlert</h4>
+                    </div>
+                </div>
+            </header>
+
+
+            <nav class="nav">
+                <a href="#">Prévision</a><a href="#">Carte</a><a href="#">Recherche</a>
+            </nav>
+            <article class="nav__art-search">
+                <div class="nav__art-search__div">
+                    <div class="nav__art-search__div__map-search ">
+                        <img src="./img/map.png" alt="nuage">
+                        <input type="text" placeholder="Paris, France">
+                        <img src="./img/search.png" alt="recherche">
+                    </div>  
+                </div>
+            </article>
+
+            <article class="content">
+                <div class="content__weather">
+                    <div class="content__weather__img-weather"> <img src="./img/weather.png" alt="weather"></div>
+                <div>
+                    <h1>20°C</h1>
+                </div>
+            </div>
+            <div class="content__pluie">
+                <p class="content__pluie__txt">La pluie se termine dans 1h45</p>
+            </div>
+            </article>
+
+
+            <footer class="footer">
+                <div class="footer_div-cloud">
+                    <div class="img">
+                        <img src="./img/cloud.png" alt="nuage">
+                    </div>
+                    <p>Prévision</p>                  
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="./img/map.png" alt="nuage">
+                    </div>
+                    <p>Carte</p>
+                    
+                </div>
+            </footer>
+        </section>
+    </main>
+
+
 
 
     <main class="main2">
@@ -54,7 +115,7 @@
             <article class="content">
 
             </article>
-            <article>
+            <footer>
                 <div class="div-cloud">
                     <div class="img">
                         <img src="./img/cloud.png" alt="nuage">
@@ -70,54 +131,12 @@
                     <p>Carte</p>
                     
                 </div>
-            </article>
+            </footer>
         </section>
     </main>
 
 
-    <main class="main3">
-        <section class= "container">
-            <header>
-                <div class="div-header">
-                    <div class="header-logo">
-                        <img src="./img/logopage.png" alt="logo">
-                    </div>
-                    <div class="header-txt">
-                        <h4>RainAlert</h4>
-                    </div>
-                </div>
-            </header>
-        </section>
-    </main>
-    <main class="main4">
-        <section class= "container">
-            <header>
-                <div class="div-header">
-                    <div class="header-logo">
-                        <img src="./img/logopage.png" alt="logo">
-                    </div>
-                    <div class="header-txt">
-                        <h4>RainAlert</h4>
-                    </div>
-                </div>
-            </header>
-        </section>
-    </main>
-    <main class="main5">
-        <section class= "container">
-            <header>
-                <div class="div-header">
-                    <div class="header-logo">
-                        <img src="./img/logopage.png" alt="logo">
-                    </div>
-                    <div class="header-txt">
-                        <h4>RainAlert</h4>
-                    </div>
-                </div>
-            </header>
-        </section>
-    </main>
-    <main class="main6"></main>
 </body>
+<script src="./index.js"></script>
 </html>
 <script src="./index.js"></script>

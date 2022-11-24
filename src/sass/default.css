@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+.content {
+  height: 73%;
+}
+.content__weather {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content__weather__img-weather {
+  padding-right: 10px;
+}
+.content__pluie {
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+::before, ::after, * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+}
+
+main {
+  height: 100vh;
+}
+
+section {
+  height: 100%;
+}
+
+.home__section {
+  background: url(../img/bg.jpg) no-repeat right;
+  background-size: cover;
+}
+.home__section__content {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.home__section__content__img-home {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__section__content__img-home__txt {
+  color: #fff;
+}
+
+.container {
+  background: linear-gradient(179.66deg, #0074FD 0.3%, rgba(0, 117, 255, 0) 172.25%);
+}
+
+.header {
+  height: 7%;
+  display: flex;
+  justify-content: center;
+}
+.header__div-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav__art-search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 7%;
+}
+.nav__art-search__div {
+  width: 80%;
+  background-color: #92CEDB;
+  border-radius: 5px;
+}
+.nav__art-search__div__map-search {
+  display: flex;
+}
+
+input[type=text] {
+  width: 100%;
+  background-color: #92CEDB;
+  border: none;
+}
+
+.footer {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+}
+.footer__div-cloud {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=default.css.map */
