@@ -8,10 +8,11 @@
   box-sizing: border-box;
 }
 a{
-  color: $color-white;
+  color: black;
+  text-decoration: none;
 }
 main{
-  height: 100vh;
+  height: 100vh;  
 }
 section{
   height: 100%;
@@ -39,6 +40,7 @@ section{
 
 .container{
   background: linear-gradient(179.66deg, #0074FD 0.3%, rgba(0, 117, 255, 0) 172.25%);
+
 }
 
 .header{
@@ -57,27 +59,25 @@ section{
   justify-content: center;
   align-items: center;
 }
-.nav{
-  height: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  &__art-search{
+
+.art-search{
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 7%;
-  &__div{
-  width: 80%;
-  background-color: #92CEDB;
-     border-radius: 5px;
-     &__map-search{
-      display: flex;
+    &__div{
+      width: 80%;
+      background-color: #92CEDB;
+      border-radius: 5px;
+        &__map-search{
+          display: flex;
 
     }
+  }
 }
-}
-}
+
+
+
 input[type=text]{
   width: 100%;
   background-color: #92CEDB;  
@@ -87,6 +87,79 @@ input[type=text]{
 
 
 
+.content{
+  height: 78%;
+  &__weather{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__img-weather{
+      padding-right:10px ;
+}
+}
+  &__pluie{
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  &__txt{
+      color: white;
+  }
+  }
+  &__preci{
+    height: 72%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    &__graph{
+      width: 80%;
+      height: 70%;
+      background-color: #D9D9D9;
+      border-radius: 7px;
+      &__top{
+        border: 1px solid;
+        display: flex;
+        justify-content: space-between;
+        &__fia{
+          display: flex;
+          width: 33%;
+          justify-content: space-between;
+          &__pourc{
+            background-color: #0075FF;
+            color: white;
+            border-radius: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2px;
+          }
+        }
+      }
+    }
+    &__time{
+      width: 80%;
+      height: 15%;
+      background-color: #D9D9D9;
+      border-radius: 30px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      &__bg{
+        height:55px;width: 25%;
+        border-radius: 30px;
+        background-color: #0075FF;
+        position: absolute;
+        left: 10%;
+      }
+    }
+  }
+}
+
+p{
+z-index: 100;
+}
 
 
 .footer{
@@ -100,4 +173,16 @@ input[type=text]{
       display: flex;
   flex-direction: column;
   }
+}
+#main2:target .txt-prev{
+  color: #0074FD;
+}
+#main3:target .txt-map{
+  color: #0074FD;
+}
+.footer__div-cloud{
+  border: 20px solid;
+}
+h3{
+  color: #0074FD;
 }

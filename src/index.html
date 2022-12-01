@@ -10,7 +10,7 @@
     <title>Rain Alert</title>
 </head>
 <body>
-    <main class="home">
+    <a href="#main2"><main class="home" id="home">
         <section class="home__section">
             <div class="home__section__content"> 
                 <div class="home__section__content__img-home">
@@ -23,10 +23,12 @@
             </div>
             </div>
         </section>
-    </main>
+    </main></a>
+    
 
 
-    <main>
+
+    <main id="main2">
         <section class= "container">
             <header class="header">
                 <div class="header__div-header">
@@ -34,18 +36,14 @@
                         <img src="./img/logopage.png" alt="logo">
                     </div>
                     <div>
-                        <h4>RainAlert</h4>
+                        <a href="#home"><h4>RainAlert</h4></a>
                     </div>
                 </div>
             </header>
 
-
-            <nav class="nav">
-                <a href="#">Prévision</a><a href="#">Carte</a><a href="#">Recherche</a>
-            </nav>
-            <article class="nav__art-search">
-                <div class="nav__art-search__div">
-                    <div class="nav__art-search__div__map-search ">
+            <article class="art-search">
+                <div class="art-search__div">
+                    <div class="art-search__div__map-search ">
                         <img src="./img/map.png" alt="nuage">
                         <input type="text" placeholder="Paris, France">
                         <img src="./img/search.png" alt="recherche">
@@ -57,11 +55,30 @@
                 <div class="content__weather">
                     <div class="content__weather__img-weather"> <img src="./img/weather.png" alt="weather"></div>
                 <div>
-                    <h1>20°C</h1>
+                    <h1 class="content__weather__img-weather_txt">20°C</h1>
                 </div>
             </div>
             <div class="content__pluie">
                 <p class="content__pluie__txt">La pluie se termine dans 1h45</p>
+            </div>
+
+
+            <div class="content__preci">
+                <div class="content__preci__graph">
+                    <div class="content__preci__graph__top"><h3>Précipitation</h3>
+                        <div class="content__preci__graph__top__fia">
+                            <h3>Fiabilité</h3>
+                <h6 class="content__preci__graph__top__fia__pourc">90%</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__preci__time">
+                    <div class="content__preci__time__bg"></div>
+                    <p class="content__preci__time__1">12:00</p>
+                    <p>13:00</p>
+                    <p>14:00</p>
+                    <p>15:00</p>
+                </div>
             </div>
             </article>
 
@@ -71,15 +88,13 @@
                     <div class="img">
                         <img src="./img/cloud.png" alt="nuage">
                     </div>
-                    <p>Prévision</p>                  
+                    <a href="#main2"><p class="txt-prev">Prévision</p></a>                  
                 </div>
                 <div>
                     <div class="img">
                         <img src="./img/map.png" alt="nuage">
                     </div>
-                    <p>Carte</p>
-                    
-                </div>
+                    <a href="#main3"><p class="txt-map">Carte</p></a>                </div>
             </footer>
         </section>
     </main>
@@ -87,49 +102,64 @@
 
 
 
-    <main class="main2">
+    <main id="main3">
         <section class= "container">
-            <header>
-                <div class="div-header">
+            <header class="header">
+                <div class="header__div-header">
                     <div class="img">
                         <img src="./img/logopage.png" alt="logo">
                     </div>
-                    <div class="header-txt">
-                        <h4>RainAlert</h4>
+                    <div>
+                        <a href="#home"><h4>RainAlert</h4></a>
                     </div>
                 </div>
             </header>
-            <nav>
-                <a href="#">Prévision</a><a href="#">Carte</a><a href="#">Recherche</a>
-            </nav>
+
             <article class="art-search">
-                <div class="div-search">
-                    <div class="map-search">
+                <div class="art-search__div">
+                    <div class="art-search__div__map-search ">
                         <img src="./img/map.png" alt="nuage">
                         <input type="text" placeholder="Paris, France">
                         <img src="./img/search.png" alt="recherche">
                     </div>  
-                    
                 </div>
             </article>
-            <article class="content">
 
+            <article class="content">
+                <div class="content__weather">
+                    <div class="content__weather__img-weather"> <img src="./img/weather.png" alt="weather"></div>
+                <div>
+                    <h1 class="content__weather__img-weather_txt">20°C</h1>
+                </div>
+            </div>
+            <div class="content__pluie">
+                <p class="content__pluie__txt">La pluie se termine dans 1h45</p>
+            </div>
+            <div class="content__preci">
+                <div class="content__preci__graph"></div>
+                <div class="content__preci__time">
+                    <div class="content__preci__time__bg"></div>
+                    <p class="content__preci__time__1">12:00</p>
+                    <p>13:00</p>
+                    <p>14:00</p>
+                    <p>15:00</p>
+                </div>
+            </div>
             </article>
-            <footer>
-                <div class="div-cloud">
+
+
+            <footer class="footer">
+                <div class="footer_div-cloud">
                     <div class="img">
                         <img src="./img/cloud.png" alt="nuage">
                     </div>
-                    
-                    <p>Prévision</p>
-                    
+                    <a href="#main2"><p class="txt-prev">Prévision</p></a>                  
                 </div>
                 <div>
                     <div class="img">
                         <img src="./img/map.png" alt="nuage">
                     </div>
-                    <p>Carte</p>
-                    
+                    <a href="#main3"><p class="txt-map">Carte</p></a>
                 </div>
             </footer>
         </section>
