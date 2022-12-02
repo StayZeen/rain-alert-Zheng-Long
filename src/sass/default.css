@@ -115,9 +115,9 @@ input[type=text] {
   border-radius: 7px;
 }
 .content__preci__graph__top {
-  border: 1px solid;
   display: flex;
   justify-content: space-between;
+  height: 9%;
 }
 .content__preci__graph__top__fia {
   display: flex;
@@ -133,6 +133,42 @@ input[type=text] {
   align-items: center;
   padding: 2px;
 }
+.content__preci__graph__bot {
+  display: flex;
+  height: 91%;
+}
+.content__preci__graph__bot__niveau {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 19%;
+}
+.content__preci__graph__bot__niveau__fmf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__preci__graph__bot__niveau__graph {
+  width: 81%;
+}
+.content__preci__graph__bot__niveau__graph__top {
+  height: 93%;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+}
+.content__preci__graph__bot__niveau__graph__top__bg {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #FDB03C 1.19%, rgba(253, 176, 60, 0) 101.99%);
+  border: 1px solid #0075FF;
+  -webkit-clip-path: polygon(40% 52%, 69% 20%, 100% 35%, 100% 100%, 100% 100%, 50% 100%, 24% 100%, 0 100%, 0 56%, 19% 35%);
+          clip-path: polygon(40% 52%, 69% 20%, 100% 35%, 100% 100%, 100% 100%, 50% 100%, 24% 100%, 0 100%, 0 56%, 19% 35%);
+}
+.content__preci__graph__bot__niveau__graph__time {
+  height: 7%;
+  display: flex;
+  justify-content: space-evenly;
+}
 .content__preci__time {
   width: 80%;
   height: 15%;
@@ -143,7 +179,7 @@ input[type=text] {
   align-items: center;
 }
 .content__preci__time__bg {
-  height: 55px;
+  height: 57px;
   width: 25%;
   border-radius: 30px;
   background-color: #0075FF;
@@ -182,4 +218,18 @@ p {
 
 h3 {
   color: #0074FD;
+}
+
+.a {
+  position: absolute;
+  height: 30%;
+  width: 79%;
+  background-color: red;
+  z-index: 101;
+  display: flex;
+}
+
+.a p {
+  border: 1px solid;
+  height: 25%;
 }/*# sourceMappingURL=default.css.map */
