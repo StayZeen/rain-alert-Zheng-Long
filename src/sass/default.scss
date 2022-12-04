@@ -224,20 +224,47 @@ h3{
   color: #0074FD;
 }
 
-.a{
+.art-search__div__propo{
   position: absolute;
   height: 30%;
   width: 79%;
-  background-color: white;
+  background-color: #92CEDB;
   z-index: 101;
   display: flex;
   flex-direction: column;
+  opacity: 0;
   
 }
-.a.cacher{
-  z-index: -1000;
+.art-search__div__propo.afficher{
+  z-index: 1000;
+  opacity: 1;
 }
-.a p{
+.art-search__div__propo p{
   border: 1px solid ;
   height: 25%;
 }
+.search-bar {
+  cursor: pointer;
+}
+.content__preci__time__1{
+  cursor: pointer;
+}
+.content__preci__time__bg.time1bg{
+  left: 10%;
+}
+.content__preci__time__bg.time2bg{
+  left: 29%;
+}
+.content__preci__time__bg.time3bg{
+  left: 47%;
+}
+.content__preci__time__bg.time4bg{
+  left: 65%;
+}
+.content__preci__time__3{
+  cursor: pointer;
+}
+.content__preci__time__bg{
+  left: 65%;
+}
+//10 29 47 65
