@@ -5,7 +5,7 @@ const Header = () => {
     <section class="home__section">
         <div class="home__section__content"> 
             <div class="home__section__content__img-home">
-            <img src="./img/logo.png" alt="logo">
+            <img src="../assets/images/logo.png " alt="logo">
             <div class="home__section__content__img-home__txt">
                    <h1>RainAlert</h1>
             <p>Préparez-vous <br>

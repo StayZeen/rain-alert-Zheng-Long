@@ -1,7 +1,7 @@
 const Footer = (footerTitle, bgc="cadetblue") => {
     return(
     `
-    <footer class="footer">
+    <footer class="footer1">
     <div class="footer_div-cloud">
         <div class="img">
             <img src="./img/cloud.png" alt="nuage">

@@ -5,32 +5,16 @@ import Footer from "./js/footer"
 import Main from "./js/main"
 const app = document.querySelector('#app')
 
-let contentHome = ""
+let contentHome = "";
 
-contentHome += Header()
-contentHome += Footer()
-contentHome += Main()
+contentHome += Header();
+contentHome += Footer();
+contentHome += Main();
 
-app.innerHTML = contentHome
+app.innerHTML = contentHome;
 
 
-document.getElementById("aza").innerHTML = `
 
-<a href="#main2"><main class="home" id="home">
-        <section class="home__section">
-            <div class="home__section__content"> 
-                <div class="home__section__content__img-home">
-                <img src="./img/logo.png" alt="logo">
-                <div class="home__section__content__img-home__txt">
-                       <h1>RainAlert</h1>
-                <p>Préparez-vous <br>
-                    pour la pluie</p>
-                </div>
-            </div>
-            </div>
-        </section>
-    </main></a>
-`;
 const searchBar = document.querySelector(".search-bar")
 const propo = document.querySelector(".art-search__div__propo")
 const timeBg = document.querySelector(".content__preci__time__bg")
