@@ -1,4 +1,4 @@
-const Footer = (footerTitle, bgc="cadetblue") => {
+const Footer = () => {
     return(
     `
     <footer class="footer1">

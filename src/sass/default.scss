@@ -281,4 +281,15 @@ h3{
 .content__preci__time__bg{
   left: 65%;
 }
-//10 29 47 65
+body{
+  overflow: hidden;
+
+}
+@keyframes direction{
+  from{
+    left: 10%;
+  }
+  to{
+    left: 65%;
+  }
+}

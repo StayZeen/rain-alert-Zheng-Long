@@ -290,4 +290,26 @@ h3 {
 
 .content__preci__time__bg {
   left: 65%;
+}
+
+body {
+  overflow: hidden;
+}
+
+@-webkit-keyframes direction {
+  from {
+    left: 10%;
+  }
+  to {
+    left: 65%;
+  }
+}
+
+@keyframes direction {
+  from {
+    left: 10%;
+  }
+  to {
+    left: 65%;
+  }
 }/*# sourceMappingURL=default.css.map */
